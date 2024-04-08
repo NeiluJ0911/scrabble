@@ -2,11 +2,11 @@ package scrabble.modele;
 
 public class Case {
 	
-	private static String spécialité;
+	private static Spécialité spécialité;
 	
 	private Boolean présenceJeton = false;
 
-	public String getSpécialité() {
+	public Spécialité getSpécialité() {
 		return spécialité;
 	}
 
@@ -18,8 +18,13 @@ public class Case {
 		this.présenceJeton = présenceJeton;
 	}
 
-	public Case(String spécialité) {
+	public Case(Spécialité spécialité) {
 		Case.spécialité = spécialité;
+	}
+
+	@Override
+	public String toString() {
+		return "Case [présenceJeton=" + présenceJeton + "]";
 	}
 	
 	
