@@ -7,24 +7,21 @@ import scrabble.gui.*;
 
 public class Plateau {
 
-	public static List<Case> mettreDesCaseDansMonPlateau() {
-		List<Case> plateau = new ArrayList<>();
-		
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.ETOILE));
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.NEUTRE));
-		plateau.add(new Case(Specialite.NEUTRE));
+	public static Case[][] mettreDesCaseDansMonPlateau() {
+		Case[][] plateau = new Case[15][15];
+		for (int i = 0;i==15;i++) {
+			for (int j = 0; j==15;j++) {
+				plateau[i][j] = new Case(Specialite.NEUTRE);
+			}
+		}
 		return plateau;
 	}
 	
-	public static void faireAfficherMesCases(List<Case> plateau) {
-		for (Case cases : plateau) {
-			Console.message(cases.toString());
+	public static void faireAfficherMesCases(Case[][] plateau) {
+		for (Case[] cases : plateau) {
+			for (Case[] casess : plateau) {
+				Console.message(casess.toString());
+			}
 		}
 	}
 }

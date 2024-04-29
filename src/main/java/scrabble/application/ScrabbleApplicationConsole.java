@@ -4,6 +4,7 @@ import java.util.List;
 
 import scrabble.modele.Case;
 import scrabble.modele.Plateau;
+import scrabble.modele.Specialite;
 import scrabble.gui.Console;
 
 public class ScrabbleApplicationConsole {
@@ -12,7 +13,8 @@ public class ScrabbleApplicationConsole {
 		
 		Console.titre("Bienvenue dans notre magnifique scrabble");
 		
-		List<Case> plateau = Plateau.mettreDesCaseDansMonPlateau();
+		Case[][] plateau = Plateau.mettreDesCaseDansMonPlateau();
+		plateau[8][8]= new Case(Specialite.ETOILE);
 		Plateau.faireAfficherMesCases(plateau);
 	}
 }
