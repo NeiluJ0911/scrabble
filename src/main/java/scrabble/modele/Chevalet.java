@@ -8,11 +8,11 @@ import scrabble.gui.Console;
 public class Chevalet {
 	List<Jeton> jetonsJouables; 
 	
-	Chevalet(){
+	public Chevalet(){
 		this.jetonsJouables = new ArrayList<Jeton>();
 	}
 	
-	void ajouter(Jeton jeton) {
+	public void ajouter(Jeton jeton) {
 		this.jetonsJouables.add(jeton);
 	}
 	
@@ -20,7 +20,7 @@ public class Chevalet {
 		// TODO Ajouter l'envoi d'un jeton vers une case du plateau
 	}
 	
-	void afficher() {
+	public void afficher() {
 	    if (jetonsJouables.isEmpty()) {
 	        Console.message("Le chevalet est vide."); // Affiche un message si le chevalet est vide
 	    } else {

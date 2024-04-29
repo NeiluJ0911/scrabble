@@ -4,7 +4,7 @@ public class Jeton {
     private Lettre lettre;
     private Points points;
 
-    Jeton(Lettre lettre, Points points){
+    public Jeton(Lettre lettre, Points points){
     	this.lettre=lettre;
     	this.points=points;
     }
