@@ -11,8 +11,14 @@ public class Plateau {
 		List<Case> plateau = new ArrayList<>();
 		
 		plateau.add(new Case(Specialite.NEUTRE));
-		
-			
+		plateau.add(new Case(Specialite.NEUTRE));
+		plateau.add(new Case(Specialite.NEUTRE));
+		plateau.add(new Case(Specialite.NEUTRE));
+		plateau.add(new Case(Specialite.ETOILE));
+		plateau.add(new Case(Specialite.NEUTRE));
+		plateau.add(new Case(Specialite.NEUTRE));
+		plateau.add(new Case(Specialite.NEUTRE));
+		plateau.add(new Case(Specialite.NEUTRE));
 		return plateau;
 	}
 	
