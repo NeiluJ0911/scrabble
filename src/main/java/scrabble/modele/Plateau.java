@@ -3,20 +3,22 @@ package scrabble.modele;
 import java.util.ArrayList;
 import java.util.List;
 
+import scrabble.gui.*;
+
 public class Plateau {
 
-	public static void main(String[] args) {
-
-		List<Case> plateau = mettreDesCaseDansMonPlateau();
-	}
-
-	private static List<Case> mettreDesCaseDansMonPlateau() {
+	public static List<Case> mettreDesCaseDansMonPlateau() {
 		List<Case> plateau = new ArrayList<>();
-		for (int i = 0; i >= 15; i++) {
-			for (int j = 0; j >= 15; j++) {
-				plateau.add(new Case(Spécialité.NEUTRE));
-			}	
-		}
+		
+		plateau.add(new Case(Specialite.NEUTRE));
+		
+			
 		return plateau;
+	}
+	
+	public static void faireAfficherMesCases(List<Case> plateau) {
+		for (Case cases : plateau) {
+			Console.message(cases.toString());
+		}
 	}
 }

@@ -1,11 +1,18 @@
 package scrabble.application;
 
+import java.util.List;
+
+import scrabble.modele.Case;
+import scrabble.modele.Plateau;
+import scrabble.gui.Console;
+
 public class ScrabbleApplicationConsole {
 
 	public static void main(String[] args) {
-		System.out.println("-------------------------------------------------------");
-		System.out.println("-- Bienvenue dans notre magnifique jeu de scrabble ! --");
-		System.out.println("-------------------------------------------------------");
-		//TODO
+		
+		Console.titre("Bienvenue dans notre magnifique scrabble");
+		
+		List<Case> plateau = Plateau.mettreDesCaseDansMonPlateau();
+		Plateau.faireAfficherMesCases(plateau);
 	}
 }
