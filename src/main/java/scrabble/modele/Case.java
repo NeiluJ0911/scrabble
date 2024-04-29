@@ -27,7 +27,7 @@ public class Case {
 
 	@Override
 	public String toString() {
-		return "Case [presenceJeton=" + presenceJeton + "]/n [specialite=" + specialite + "]";
+		return "Case [presenceJeton=" + presenceJeton + "]\n     [specialite=" + specialite + "]";
 	}
 	
 }

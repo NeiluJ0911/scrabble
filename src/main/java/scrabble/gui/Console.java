@@ -8,7 +8,7 @@ public class Console {
 
 	public static final String SEPARATOR_LINE = "--------------------------------------------";
 
-	public static void title(String text) {
+	public static void titre(String text) {
 		message(SEPARATOR_LINE);
 		message(text);
 		message(SEPARATOR_LINE);
