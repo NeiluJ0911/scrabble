@@ -3,7 +3,6 @@ package scrabble.modele;
 public class Case {
 	
 	private Specialite specialite;
-	
 	private Boolean presenceJeton = false;
 
 	public Specialite getSpecialite() {
@@ -28,7 +27,7 @@ public class Case {
 
 	@Override
 	public String toString() {
-		return "Case [présenceJeton=" + presenceJeton + "]";
+		return "Case [presenceJeton=" + presenceJeton + "]/n [specialite=" + specialite + "]";
 	}
 	
 }
