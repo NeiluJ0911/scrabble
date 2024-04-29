@@ -2,30 +2,33 @@ package scrabble.modele;
 
 public class Case {
 	
-	private static Spécialité spécialité;
+	private Specialite specialite;
 	
-	private Boolean présenceJeton = false;
+	private Boolean presenceJeton = false;
 
-	public Spécialité getSpécialité() {
-		return spécialité;
+	public Specialite getSpecialite() {
+		return specialite;
+	}
+	
+	public void setSpecialite(Specialite specialite) {
+		this.specialite = specialite;
 	}
 
 	public Boolean getPrésenceJeton() {
-		return présenceJeton;
+		return presenceJeton;
 	}
 
-	public void setPrésenceJeton(Boolean présenceJeton) {
-		this.présenceJeton = présenceJeton;
+	public void setPresenceJeton(Boolean présenceJeton) {
+		this.presenceJeton = présenceJeton;
 	}
 
-	public Case(Spécialité spécialité) {
-		Case.spécialité = spécialité;
+	public Case(Specialite specialite) {
+		this.specialite = specialite;
 	}
 
 	@Override
 	public String toString() {
-		return "Case [présenceJeton=" + présenceJeton + "]";
+		return "Case [présenceJeton=" + presenceJeton + "]";
 	}
-	
 	
 }

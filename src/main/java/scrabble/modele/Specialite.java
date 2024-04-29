@@ -1,6 +1,6 @@
 package scrabble.modele;
 
-public enum Spécialité {
+public enum Specialite {
 	
 	NEUTRE,
 	ETOILE;
