@@ -4,11 +4,10 @@ import java.util.List;
 
 import scrabble.modele.Case;
 import scrabble.modele.Plateau;
-
+import scrabble.modele.Specialite;
 import scrabble.modele.Jeton;
 import scrabble.modele.Lettre;
 import scrabble.modele.Points;
-
 import scrabble.gui.Console;
 import scrabble.modele.Chevalet;
 public class ScrabbleApplicationConsole {
@@ -18,6 +17,10 @@ public class ScrabbleApplicationConsole {
 		System.out.println("-- Bienvenue dans notre magnifique jeu de scrabble ! --");
 		System.out.println("-------------------------------------------------------");
 		
+		Console.titre("Bienvenue dans notre magnifique scrabble");
+		
+		Case[][] plateau = Plateau.mettreDesCaseDansMonPlateau();
+		plateau[8][8]= new Case(Specialite.ETOILE);
 		List<Case> plateau = Plateau.mettreDesCaseDansMonPlateau();
 		Plateau.faireAfficherMesCases(plateau);
 		
