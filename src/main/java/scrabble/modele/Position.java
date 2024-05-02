@@ -14,7 +14,7 @@ public class Position {
 		return colonne;
 	}
 
-	public void setColonne(Integer colonne) {
+	public void setColonne(Integer colonne)  {
 		this.colonne = colonne;
 	}
 
