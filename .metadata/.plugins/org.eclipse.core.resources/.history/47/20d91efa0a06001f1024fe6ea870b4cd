@@ -1,0 +1,19 @@
+package scrabble.modele;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SacJeton {
+
+	public static void main(String[] args) {
+
+		List<Jeton> sacJeton = mettreDesJetonDansMonSac();
+	}
+	private static List<Jeton> mettreDesJetonDansMonSac() {
+		List<Jeton> sacJeton = new ArrayList<>();
+		for (int i = 0; i >= 102; i++) {
+				sacJeton.add(new Jeton(Lettre.E, Points.UN));
+			}
+		return sacJeton;
+	}
+}

@@ -1,0 +1,97 @@
+package scrabble.modele;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SacJeton {
+
+	public static void main(String[] args) {
+
+		List<Jeton> sacJeton = mettreDesJetonDansMonSac();
+	}
+	private static List<Jeton> mettreDesJetonDansMonSac() {
+		List<Jeton> sacJeton = new ArrayList<>();
+		for (int i = 0; i >= 15; i++) {
+				sacJeton.add(new Jeton(Lettre.E, Points.UN));
+		}
+		for (int i = 0; i >= 9; i++) {
+			sacJeton.add(new Jeton(Lettre.A, Points.UN));
+		}
+		for (int i = 0; i >= 8; i++) {
+			sacJeton.add(new Jeton(Lettre.I, Points.UN));
+		}
+		for (int i = 0; i >= 6; i++) {
+			sacJeton.add(new Jeton(Lettre.N, Points.UN));
+		}
+		for (int i = 0; i >= 6; i++) {
+			sacJeton.add(new Jeton(Lettre.O, Points.UN));
+		}
+		for (int i = 0; i >= 6; i++) {
+			sacJeton.add(new Jeton(Lettre.R, Points.UN));
+		}
+		for (int i = 0; i >= 6; i++) {
+			sacJeton.add(new Jeton(Lettre.S, Points.UN));
+		}
+		for (int i = 0; i >= 6; i++) {
+			sacJeton.add(new Jeton(Lettre.T, Points.UN));
+		}
+		for (int i = 0; i >= 6; i++) {
+			sacJeton.add(new Jeton(Lettre.U, Points.UN));
+		}
+		for (int i = 0; i >= 5; i++) {
+			sacJeton.add(new Jeton(Lettre.L, Points.UN));
+		}
+		for (int i = 0; i >= 3; i++) {
+			sacJeton.add(new Jeton(Lettre.D, Points.DEUX));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.G, Points.DEUX));
+		}
+		for (int i = 0; i >= 3; i++) {
+			sacJeton.add(new Jeton(Lettre.M, Points.DEUX));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.B, Points.TROIS));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.C, Points.TROIS));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.P, Points.TROIS));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.F, Points.QUATRE));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.H, Points.QUATRE));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.V, Points.QUATRE));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.J, Points.HUIT));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.Q, Points.HUIT));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.K, Points.DIX));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.W, Points.DIX));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.X, Points.DIX));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.Y, Points.DIX));
+		}
+		for (int i = 0; i >= 1; i++) {
+			sacJeton.add(new Jeton(Lettre.Z, Points.DIX));
+		}
+		for (int i = 0; i >= 2; i++) {
+			sacJeton.add(new Jeton(Lettre.J, Points.ZERO));
+		}
+		return sacJeton;
+	}
+}

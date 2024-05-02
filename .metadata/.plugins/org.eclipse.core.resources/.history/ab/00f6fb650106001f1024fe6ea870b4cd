@@ -1,0 +1,12 @@
+package scrabble.modele;
+
+public class SacJeton {
+
+	public Jeton jeton;
+	
+	SacJeton(Jeton jeton){
+		this.jeton=jeton;
+	}
+	
+	
+}
