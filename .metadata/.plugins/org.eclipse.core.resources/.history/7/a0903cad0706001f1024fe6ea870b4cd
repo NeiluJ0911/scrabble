@@ -1,0 +1,20 @@
+package scrabble.modele;
+
+public class SacJeton {
+
+	private Jeton jeton;
+	
+	SacJeton(Jeton jeton){
+		this.setJeton(jeton);
+	}
+
+	public Jeton getJeton() {
+		return jeton;
+	}
+
+	public void setJeton(Jeton jeton) {
+		this.jeton = jeton;
+	}
+	
+	
+}
