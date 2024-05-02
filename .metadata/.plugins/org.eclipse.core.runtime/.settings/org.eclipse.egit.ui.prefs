@@ -1,2 +1,4 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>&quot;Modif sac jeton(a optimiser)&quot;</message>\r\n<message>ajout sac jeton</message>\r\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>&quot;test eclipse push&quot;</message>\r\n<message>Test push2</message>\r\n<message>&quot;Ajout fonction sac&quot;</message>\r\n<message>&quot;Modif sac jeton(a optimiser)&quot;</message>\r\n<message>ajout sac jeton</message>\r\n</messages>
 eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
