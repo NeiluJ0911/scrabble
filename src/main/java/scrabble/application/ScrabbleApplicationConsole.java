@@ -32,6 +32,5 @@ public class ScrabbleApplicationConsole {
 		chevalet.ajouter(jeton2);
 		chevalet.afficher();
 		
-		
 	}
 }
