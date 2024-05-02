@@ -15,8 +15,8 @@ public class Chevalet {
 		}
 	}
 	
-	public void ajouter(Jeton jeton) {
-		this.jetonsJouables.add(jeton);
+	public void piocher() {
+		this.jetonsJouables.add(SacJeton.piocherJeton());
 	}
 	
 	void jouer(Jeton jeton){
