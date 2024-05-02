@@ -10,7 +10,9 @@ public class Chevalet {
 	
 	public Chevalet(){
 		this.jetonsJouables = new ArrayList<Jeton>();
-		this.jetonsJouables.add(SacJeton.piocherJeton());
+		for(int i=0;i<7;i++) {
+			this.jetonsJouables.add(SacJeton.piocherJeton());
+		}
 	}
 	
 	public void ajouter(Jeton jeton) {

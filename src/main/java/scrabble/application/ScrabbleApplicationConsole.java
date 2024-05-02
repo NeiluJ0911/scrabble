@@ -29,10 +29,8 @@ public class ScrabbleApplicationConsole {
         }
 		
 		Chevalet chevalet = new Chevalet();
-		Jeton jeton1 = new Jeton(Lettre.A, Points.DEUX);
-		Jeton jeton2 = new Jeton(Lettre.B, Points.TROIS);
-		chevalet.ajouter(jeton1);
-		chevalet.ajouter(jeton2);
+		chevalet.afficher();
+		chevalet.ajouter(jetonPioche);
 		chevalet.afficher();
 		
 	}
