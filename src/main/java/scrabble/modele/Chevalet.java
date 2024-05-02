@@ -10,6 +10,7 @@ public class Chevalet {
 	
 	public Chevalet(){
 		this.jetonsJouables = new ArrayList<Jeton>();
+		this.jetonsJouables.add(SacJeton.piocherJeton());
 	}
 	
 	public void ajouter(Jeton jeton) {
