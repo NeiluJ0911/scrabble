@@ -1,0 +1,35 @@
+2024-04-29 10:09:39,240 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-29 10:10:16,494 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.unilim.iut:saebut1:0.0.1-SNAPSHOT @ C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\pom.xml.
+2024-04-29 10:10:17,455 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /scrabble/src/main/java
+2024-04-29 10:10:17,460 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /scrabble/src/main/resources
+2024-04-29 10:10:17,463 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /scrabble/src/test/java
+2024-04-29 10:10:17,465 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /scrabble/src/test/resources
+2024-04-29 10:10:17,944 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2024-04-29 10:10:20,776 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 10:10:20,786 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 10:17:53,476 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 10:17:53,482 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 10:19:27,177 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 10:19:27,181 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 10:20:28,059 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 10:20:28,061 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 10:20:54,931 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 10:20:54,934 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:05:51,445 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:05:51,450 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:09:36,319 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:09:36,323 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:13:46,679 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:13:46,682 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:17:38,047 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:17:38,050 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:22:10,386 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:22:10,388 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:29:28,883 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:29:28,886 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:29:40,877 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:29:40,879 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:32:59,564 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:32:59,568 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
+2024-04-29 11:33:30,377 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\main\resources
+2024-04-29 11:33:30,379 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Utilisateur\Documents\java\sae2.01\scrabble\src\test\resources
