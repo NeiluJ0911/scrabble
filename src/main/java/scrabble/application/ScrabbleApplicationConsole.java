@@ -13,10 +13,13 @@ public class ScrabbleApplicationConsole {
 	public static void main(String[] args) {
 		Console.titre("Bienvenue dans notre magnifique scrabble");
 		
-		Case[][] plateau = Plateau.mettreDesCaseDansMonPlateau();
-		plateau[8][8]= new Case(Specialite.ETOILE);
-		List<Case> plateau = Plateau.mettreDesCaseDansMonPlateau();
-		Plateau.faireAfficherMesCases(plateau);
+		Plateau plateau = new Plateau();
+		
+		plateau.mettreDesCaseDansMonPlateau();
+		
+		plateau.faireAfficherMesCases();
+		
+		Console.message("");
 		
 		Jeton jetonPioche = SacJeton.piocherJeton();
         if (jetonPioche != null) {
