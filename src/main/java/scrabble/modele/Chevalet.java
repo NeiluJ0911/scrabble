@@ -14,10 +14,15 @@ public class Chevalet {
 	}
 	
 	public void piocher() {
-		this.jetonsJouables.add(SacJeton.piocherJeton());
+		try {
+			this.jetonsJouables.add(SacJeton.piocherJeton());
+		} catch (SacVideException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
-	void jouer(Jeton jeton){
+	void jouer(Jeton jeton, Position position){
 		// TODO Ajouter l'envoi d'un jeton vers une case du plateau
 	}
 	
