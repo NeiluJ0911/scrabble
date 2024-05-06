@@ -6,6 +6,7 @@ import scrabble.modele.Jeton;
 import scrabble.modele.Lettre;
 import scrabble.modele.Points;
 import scrabble.modele.SacJeton;
+import scrabble.utils.SacVideException;
 import scrabble.gui.Console;
 import scrabble.modele.Chevalet;
 public class ScrabbleApplicationConsole {
@@ -21,14 +22,24 @@ public class ScrabbleApplicationConsole {
 		
 		Console.message("");
 		
-		Jeton jetonPioche = SacJeton.piocherJeton();
-        if (jetonPioche != null) {
-            Console.message("Jeton pioché : Lettre " + jetonPioche.getLettre() + ", Points " + jetonPioche.getPoints().getValeur());
-        } else {
-            Console.message("Le sac de jetons est vide.");
-        }
+		Jeton jetonPioche;
+		try {
+			jetonPioche = SacJeton.piocherJeton();
+		} catch (SacVideException e) {
+			Console.message("Impossible de piocher le sac est vide");
+		}
+        
+		Jeton jetonPioche2;
+		try {
+			jetonPioche2 = SacJeton.piocherJeton();
+		} catch (SacVideException e) {
+			Console.message("Impossible de piocher le sac est vide");
+		}
 		
-		Chevalet chevalet = new Chevalet();
+        
+		Chevalet chevalet;
+		chevalet = new Chevalet();
+		
 		Jeton jeton1 = new Jeton(Lettre.A, Points.DEUX);
 		Jeton jeton2 = new Jeton(Lettre.B, Points.TROIS);
 		chevalet.ajouter(jeton1);

@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import scrabble.gui.Console;
+import scrabble.utils.SacVideException;
 
 public class Chevalet {
 	List<Jeton> jetonsJouables; 
 	
 	public Chevalet(){
 		this.jetonsJouables = new ArrayList<Jeton>();
-		this.jetonsJouables.add(SacJeton.piocherJeton());
 	}
 	
 	public void ajouter(Jeton jeton) {

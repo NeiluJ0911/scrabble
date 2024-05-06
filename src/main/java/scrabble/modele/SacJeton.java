@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Collections;
 import java.util.Random;
 
+import scrabble.utils.SacVideException;
+
 public class SacJeton {
 	
 	public static List<Jeton> sacJeton;
@@ -16,7 +18,7 @@ public class SacJeton {
     }
 	
 	private static void mettreDesJetonDansMonSac() {
-		for (int i = 0; i < 15; i++) {
+		/*for (int i = 0; i < 15; i++) {
 				sacJeton.add(new Jeton(Lettre.E, Points.UN));
 		}
 		for (int i = 0; i < 9; i++) {
@@ -49,14 +51,14 @@ public class SacJeton {
 			sacJeton.add(new Jeton(Lettre.H, Points.QUATRE));
 			sacJeton.add(new Jeton(Lettre.V, Points.QUATRE));
 			sacJeton.add(new Jeton(Lettre.JOKER, Points.ZERO));
-		}
+		}*/
 		for (int i = 0; i < 1; i++) {
-			sacJeton.add(new Jeton(Lettre.J, Points.HUIT));
-			sacJeton.add(new Jeton(Lettre.Q, Points.HUIT));
-			sacJeton.add(new Jeton(Lettre.K, Points.DIX));
-			sacJeton.add(new Jeton(Lettre.W, Points.DIX));
-			sacJeton.add(new Jeton(Lettre.X, Points.DIX));
-			sacJeton.add(new Jeton(Lettre.Y, Points.DIX));
+			//sacJeton.add(new Jeton(Lettre.J, Points.HUIT));
+			//sacJeton.add(new Jeton(Lettre.Q, Points.HUIT));
+			//sacJeton.add(new Jeton(Lettre.K, Points.DIX));
+			//sacJeton.add(new Jeton(Lettre.W, Points.DIX));
+			//sacJeton.add(new Jeton(Lettre.X, Points.DIX));
+			//sacJeton.add(new Jeton(Lettre.Y, Points.DIX));
 			sacJeton.add(new Jeton(Lettre.Z, Points.DIX));
 		}
 	}
@@ -65,14 +67,12 @@ public class SacJeton {
 		Collections.shuffle(sacJeton);
 	}
 	
-	public static Jeton piocherJeton() {
-        if (!sacJeton.isEmpty()) {
-            Random rand = new Random();
-            return sacJeton.remove(rand.nextInt(sacJeton.size()));
-        } else {
-            System.out.println("Le sac de jetons est vide.");
-            return null;
+	public static Jeton piocherJeton() throws SacVideException{
+        if (sacJeton.isEmpty()) {
+        	throw new SacVideException("Le sac est vide impossible de piocher");
         }
+		Random rand = new Random();
+        return sacJeton.remove(rand.nextInt(sacJeton.size()));
     }
 	
 }
