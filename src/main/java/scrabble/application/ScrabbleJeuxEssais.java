@@ -1,15 +1,12 @@
 package scrabble.application;
 
-import scrabble.modele.Case;
 import scrabble.modele.Plateau;
 import scrabble.modele.Jeton;
-import scrabble.modele.Lettre;
-import scrabble.modele.Points;
 import scrabble.modele.SacJeton;
 import scrabble.utils.SacVideException;
 import scrabble.gui.Console;
 import scrabble.modele.Chevalet;
-public class ScrabbleApplicationConsole {
+public class ScrabbleJeuxEssais {
 
 	public static void main(String[] args) {
 		Console.titre("Bienvenue dans notre magnifique scrabble");
@@ -44,6 +41,8 @@ public class ScrabbleApplicationConsole {
 		Jeton jeton2 = new Jeton(Lettre.B, Points.TROIS);
 		chevalet.ajouter(jeton1);
 		chevalet.ajouter(jeton2);
+		chevalet.afficher();
+		chevalet.piocher();
 		chevalet.afficher();
 		
 	}
